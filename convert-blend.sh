@@ -1,6 +1,8 @@
 #!/bin/bash
 set -eux
 
+# https://github.com/supertuxkart/stk-blender#importing-blender-files-created-from-older-blender-versions
+
 blender-2.7 \
     "$1" \
     --background \
